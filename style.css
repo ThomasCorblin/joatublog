@@ -1,0 +1,8 @@
+/* margin top of the navbar */
+.espacetopnavbar {
+    margin-top: 10px;
+}
+
+body{
+    font-family: 'Noto Sans', sans-serif;  
+}
