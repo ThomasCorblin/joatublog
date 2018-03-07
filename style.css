@@ -6,3 +6,151 @@
 body{
     font-family: 'Noto Sans', sans-serif;  
 }
+
+/*Form*/
+
+#form_test{
+    
+}
+
+/*End Form*/
+
+/*Sections */
+.section_odd{
+    background-color:white;
+}
+.section_even{
+    background-color:rgb(184, 241, 157);
+}
+
+
+#about{
+        
+}
+#app{
+
+}
+#link{
+
+}
+#team{
+    height:702px;
+}
+#follow{
+
+}
+#contact{
+
+}
+/* End Sections */
+
+/* Picture Team*/
+.team_pic{
+    border-radius: 50%;
+}
+/* End Picture Team */
+
+
+
+@media (max-width: 1200px) {
+    /* CSS that should be displayed if width is equal to or less than 1200px goes here */
+    
+    /*Sections */
+    #about{
+        
+    }
+    #app{
+    
+    }
+    #link{
+    
+    }
+    #team{
+
+    }
+    #follow{
+    
+    }
+    #contact{
+    
+    }
+    /* End Sections */
+
+
+  }
+@media (max-width: 992px) {
+    /* CSS that should be displayed if width is equal to or less than 992px goes here */
+
+    /*Sections */
+    #about{
+
+    }
+    #app{
+    
+    }
+    #link{
+    
+    }
+    #team{
+        height:800px;
+    }
+    #follow{
+    
+    }
+    #contact{
+    
+    }
+    /* End Sections */
+
+
+  }
+@media (max-width: 768px) {
+    /* CSS that should be displayed if width is equal to or less than 768px goes here */
+
+    /*Sections */
+    #about{
+        
+    }
+    #app{
+    
+    }
+    #link{
+    
+    }
+    #team{
+        height:1400px;
+    }
+    #follow{
+    
+    }
+    #contact{
+    
+    }
+    /* End Sections */
+
+  }
+
+@media (max-width: 576px) {
+    /* CSS that should be displayed if width is equal to or less than 576px goes here */
+
+    /*Sections */
+    #about{
+        
+    }
+    #app{
+    
+    }
+    #link{
+    
+    }
+    #team{
+        height:1100px;
+    }
+    #follow{
+    
+    }
+    #contact{
+    
+    }
+    /* End Sections */
+  }
