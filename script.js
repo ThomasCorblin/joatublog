@@ -35,4 +35,12 @@ $(document).ready(function(){
       }
     });
 
+    $('.link_ben').on('click', function(e){
+      e.preventDefault();
+      var url= this.href;
+
+      $('#container').slideUp('slow').remove();
+      $('#content').load(url + ' #container').hide().slideDown('slow');
+    });
+
 });
