@@ -1,10 +1,23 @@
 /* margin top of the navbar */
 .espacetopnavbar {
     margin-top: 10px;
+    background-color:rgba(255, 209, 4, 0.568);
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    z-index: 1;
+    
+
+}
+.navbar_font{
+    color: rgb(46, 45, 45);
+    font-weight: bold;
+    font-size: 1.1em;
 }
 
 body{
     font-family: 'Noto Sans', sans-serif;  
+}
+
+.sol_box{
 }
 
 /*Form*/
@@ -16,15 +29,24 @@ body{
 /*End Form*/
 
 /*Sections */
+.title{
+    font-weight: bold;
+    position: relative;
+    z-index: 2;
+}
 .section_odd{
-    background-color:white;
+    background-color:rgba(255, 255, 255, 0.849);
+    -moz-box-shadow: 0 22px 22px -22px rgba(0, 0, 0, 0.8) inset, 0 -22px 22px -22px rgba(0, 0, 0, 0.8) inset;
+    -webkit-box-shadow: 0 22px 22px -22px rgba(0, 0, 0, 0.8) inset, 0 -22px 22px -22px rgba(0, 0, 0, 0.8) inset;
+    box-shadow: 0 22px 22px -22px rgba(0, 0, 0, 0.8) inset, 0 -22px 22px -22px rgba(0, 0, 0, 0.8) inset;
 }
 .section_even{
-    background-color:rgb(255, 117, 4);
+    background-color:rgba(255, 217, 4, 0.733);
+
     
 }
 .shadow_bot{
-    box-shadow: 20px 20px 0 20px rgb(38, 0, 255);
+
 }
 
 
